@@ -9,10 +9,11 @@
     <!--  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ORADORES</title>
 </head>
 
 <body>
+    <!-- NAV -->
     <nav>
         <div class="ad">
             <img src="assets/codoacodo.png" class="logo">
@@ -36,6 +37,7 @@
             </a>
         </ul>
     </nav>
+    <!-- INFO -->
     <header class="fondo">
         <div class="text">
             <h6>Conf Bs As</h6>
@@ -44,15 +46,17 @@
                 sint sapiente totam debitis fuga ad.
             </p>
             <div class="buttons">
-                <button>Quiero ser orador</button>
-                <button>Comprar tickets</button>
+                <button class="orador-button">Quiero ser orador</button>
+                <button class="tickets-button">Comprar tickets</button>
             </div>
         </div>
     </header>
     <div class="title">
-        <p>Conoce a los</p>
+        <p>CONOCE A LOS</p>
         <h2>ORADORES</h2>
     </div>
+    <!-- cards -->
+
     <div class="cards">
         <div class="card" style="width: 18rem;">
             <img src="assets/steve.jpg" class="card-img-top" alt="Steve Jobs">
@@ -61,7 +65,7 @@
                     <p class="js">JavaScript</p>
                     <p class="rct">React</p>
                 </div>
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Steve Jobs</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
             </div>
@@ -73,7 +77,7 @@
                     <p class="js">JavaScript</p>
                     <p class="rct">React</p>
                 </div>
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Bill Gates</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
             </div>
@@ -82,15 +86,84 @@
             <img src="assets/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
             <div class="card-body">
                 <div class="pills">
-                    <p class="neg">JavaScript</p>
-                    <p class="strt">React</p>
+                    <p class="neg">Negocios</p>
+                    <p class="strt">Startups</p>
                 </div>
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Ada Lovelace</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
             </div>
         </div>
+        <!-- imagen + texto info -->
+        <div class="grid">
+            <img src="assets/honolulu.jpg">
+            <div class="info">
+                <h3>Bs As - Octubre</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt tempora fugiat dolor repellat sequi
+                    pariatur. Ab accusantium cum distinctio similique qui facere ex quis amet minus, soluta sit aut
+                    aliquid?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt tempora fugiat dolor repellat sequi
+                    pariatur. Ab accusantium cum distinctio similique qui facere ex quis amet minus, soluta sit aut
+                    aliquid?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt tempora fugiat dolor repellat sequi
+                    pariatur. Ab accusantium cum distinctio similique qui facere ex quis amet minus, soluta sit aut
+                    aliquid?
+                </p>
+                <button class="conoce-mas">Conocé más</button>
+            </div>
+        </div>
     </div>
+    <!-- FORM ORADOR -->
+    <div class="form">
+        <form action="url" method="post" class="title">
+            <p>CONVIÉRTETE EN UN</p>
+            <h2>ORADOR</h2>
+            <p class="descripcion">Anótate como orador para dar una <span class="dashed">charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
+            <div class="form-item">
+                <input type="text"  autocomplete="off" required='required'></input>
+                <label for="nombre">Nombre</label>
+            </div>
+
+            <div class="form-item">
+                <input type="text"  autocomplete="off" required='required'></input>
+                <label for="email">Apellido</label>
+            </div>
+            <div class="form-item">
+                <textarea class="textarea" type="text" autocomplete="off" required='required'></textarea>
+                <label for="nombre">¿Sobre qué quieres hablar?</label>
+                <p class="charla">Recuerda incluir un título para tu charla</p>
+            </div>
+
+            <button type="submit" class="button">Enviar</button>
+
+        </form>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <ul>
+            <a href="">
+                <li>Preguntas Frecuentes</li>
+            </a>
+            <a href="">
+                <li>Contáctanos</li>
+            </a>
+            <a href="">
+                <li>Prensa</li>
+            </a>
+            <a href="">
+                <li>Conferencias</li>
+            </a>
+            <a href="">
+                <li>Términos y condiciones</li>
+            </a>
+            <a href="">
+                <li>Privacidad</li>
+            </a>
+            <a href="">
+                <li>Estudiantes</li>
+            </a>
+        </ul>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
