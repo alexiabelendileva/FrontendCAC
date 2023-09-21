@@ -5,7 +5,7 @@
     /* border: 1px solid black; */
 }
 /* NAV */
-ul {
+nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -60,6 +60,9 @@ ul {
 }
 
 nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     background-color: #353a40;
