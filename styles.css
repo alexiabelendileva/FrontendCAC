@@ -1,8 +1,13 @@
-/* scroll-behavior: smooth; */
+/*  */
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
     /* border: 1px solid black; */
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
 }
 /* NAV */
 nav ul {
