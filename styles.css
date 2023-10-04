@@ -468,6 +468,10 @@ header::after {
         transform: translateY(0);
     }
     .footer{
+        height: auto;
+    }
+    .footer-list{
+        padding: 2px;
         display: flex;
         flex-direction: column;
         height: auto;
