@@ -9,7 +9,7 @@ const clearCartButton = document.getElementById('clear-cart');
 // Inicializa el total del carrito, el stock y el descuento
 let total = 0;
 let stock = 10; // Stock disponible
-let selectedDiscount = 0; // Descuento inicial (80%)
+let selectedDiscount = 1; // Descuento inicial (0)
 
 // Función para actualizar las opciones del select
 function updateSelectOptions() {
@@ -30,7 +30,7 @@ function removeFromCart(cartItem) {
     total -= price;
 
     // Actualiza el total
-    cartTotal.textContent = total.toFixed(2);
+    cartTotal.textContent = total.toFixed(2); // Redondea a dos decimales
 
     // Elimina el elemento del carrito
     cartItems.removeChild(cartItem);
